@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.text-dark{
+    position: relative;
+    text-align: center;   
+}
+body{
+    background: #191919;
+}
+.register
+{
+	text-align: center;
+    width: 100%;
+    color: white;
+}
+.register h2{
+	margin: 45px 0;
+	text-transform: uppercase;
+}
+.register label{
+    color: rgb(208, 255, 38);
+    font-size: 17px;
+}
+.register input,.register select{
+	text-align: center;
+	padding: 5px 10px;
+	width: 250px;
+	height: 35px;
+	border: 2px solid;
+	border-radius: 30px;
+	margin: 10px 10px;
+  	color: white;
+  	outline: none;
+  	background: none;
+  	transition: 0.25s;
+}
+.register input:focus{
+  width: 300px;
+  border-color: rgb(208, 255, 38);
+}
+.register select{
+	width: 280px;
+	height: 45px;
+	background-color: #191919;
+}
+.register select:focus{
+	width: 330px;
+ 	border-color: rgb(208, 255, 38);
+}
+.medicalhistory{
+	margin: 0 auto;
+	background-color: rgb(30,30,30);
+}
+.medicalhistory td{
+  	padding: 10px 18px;
+}
+.medicalhistory input,.medicalhistory input:focus{
+	height: 18px;
+	width: 18px;
+}
+.medicalhistory label{
+	font-size: 15px;
+}
+.sideeffects{
+	margin: 0 auto;
+	background-color: rgb(30,30,30);
+}
+.sideeffects td{
+  	padding: 10px 18px;
+}
+.sideeffects input,.sideeffects input:focus{
+	height: 18px;
+	width: 18px;
+}
+.sideeffects label{
+	font-size: 15px;
+}
+#sub{
+	width: 180px;
+	height: 60px;
+	border: 2px solid rgb(208, 255, 38);
+	color: rgb(208, 255, 38);
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+#sub:hover{
+	background: rgb(20,20,20);
+}
+.register a{
+    color: white;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
