@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -28,14 +25,7 @@ session_start();
                     <?php
                     if(isset($_REQUEST['login']))
                     {
-                        include 'dbcon.php';
-                        $sql="select * from doctorlogin where Name='".$_REQUEST['Name']."'and Password='".$_REQUEST['Password']."';";
-                        $result = mysqli_query($conn,$sql);
-                        if(mysqli_num_rows($result))
-                        {
-                          echo "<script>alert('Details sent to Pharma Company.')</script>";
-                        }
-                        else{ echo "<h6 align='center' style='color:#2ecc71; padding: 15px 0;'>wrong username or password (try admin:admin)<h6>"; }
+                        echo "<script>alert('Details sent to Pharma Company.')</script>";
                     }
                     ?>
                 </form>
